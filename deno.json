@@ -1,0 +1,18 @@
+{
+  "name": "@utility/types",
+  "version": "0000",
+  "exports": {
+    "./json": "./src/json.ts"
+  },
+  "exclude": [
+    "dist",
+    ".run",
+    ".github/",
+    "version.json"
+  ],
+  "publish": {
+    "exclude": [
+      "test/"
+    ]
+  }
+}
