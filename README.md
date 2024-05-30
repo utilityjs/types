@@ -15,12 +15,11 @@ deno add @utility/types
 ## Usage
 
 ```typescript
-import { JSON } from "@utility/types/json";
+import { JSONObject } from "@utility/types/json";
 
-let a: JSON = { "b": 1 };
+let a: JSONObject = { "b": 1 };
 // Looks fine in IDE
 
-let b: JSON = "testing";
+let b: JSONObject = "testing";
 // Shows error in IDE
-
 ```

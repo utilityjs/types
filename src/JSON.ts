@@ -14,12 +14,12 @@ export type JSONArray = JSONValue[];
  * Union type for any value that can be found in a JSON structure.
  * This includes objects, arrays, and primitives.
  */
-export type JSONValue = JSON | JSONArray | JSONPrimitive;
+export type JSONValue = JSONObject | JSONArray | JSONPrimitive;
 
 /**
  * Type alias for objects in JSON.
  * It represents an object with string keys and JSONValue values.
  */
-export type JSON = {
+export type JSONObject = {
   [key: string]: JSONValue;
 };
